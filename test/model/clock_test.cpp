@@ -26,7 +26,7 @@ TEST_CASE("Test get minutes from seconds")
 	REQUIRE(clock1.get_minutes() == 3);
 
 	Clock clock2(34950);
-	REQUIRE(clock2.get_minutes() == 42);
+	REQUIRE(clock2.get_minutes() == 10);
 }
 
 TEST_CASE("Test get seconds from seconds since 1970") 
